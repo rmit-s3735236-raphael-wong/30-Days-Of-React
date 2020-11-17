@@ -1,5 +1,5 @@
 // Create an empty object called dog
-const dog = {}
+var dog = {}
 
 // Print the dog object on the console
 console.log(dog)
