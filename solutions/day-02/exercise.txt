@@ -1,0 +1,93 @@
+Exercises: What is React?
+
+    What is React?
+    - React is a JavaScript library used for building a reusable user interface / UI.
+
+    What is a library?
+    - A JavaScript library is a JavaScript file that contains a bunch of functions, and those functions accomplish some useful task for the webpage.
+
+    What is a single page application?
+    - A single page application is an application which has only one HTML page.
+
+    What is a component ?
+    - A component is an HTML element used for user interface.
+
+    What is the latest version of React?
+    - The latest version is 16.13.1
+
+    What is DOM?
+    - DOM stands for Document Object Model.
+
+    What is React Virtual DOM?
+    - React Virtual DOM makes new changes and updates the elements that needs changing.
+
+    What does a web application or a website(composed of) have?
+    - The web application consists of UI elements such as buttons, links, forms, header, footer, sections, articles, texts, images, audios, videos, and boxes.
+
+Exercises: Why React?
+
+    Why did you chose to use react?
+    - React is one of the most popular JavaScript libraries. React is also fast modular, scalable, flexible, has a big community, open source and has high job opportunity
+
+    What measures do you use to know popularity ?
+    - One measure of popularity could be GitHub repository stars, watchers and forks.
+
+    What is more popular, React or Vue ?
+    - React is more popular in watches and forks, whereas Vue is more popular in stars.
+
+Exercises: JSX
+
+    What is an HTML element?
+    - An HTML element has an opening and closing tahs, content, and attribute in the opening tag.
+
+    How to write a self closing HTML element?
+    - The HTML element does not have content and a closing tag.
+
+    What is an HTML attribute? Write some of them
+    - HTML attribute is the characteristic of the HTML element, such as style, id, class, src, etc.
+
+    What is JSX?
+    - JSX stands for JavaScript XML. JSX allows us to write HTML elements with JavaScript code.
+
+    What is babel?
+    - Babel is a library which transpiles JSX to pure JavaScript and latest JavaScript to older version.
+
+    What is a transpiler?
+    - A transpiler is a type of translator that takes the source code of the program in a programming language and translates it to a different programming language.
+
+Exercises: JSX Elements
+
+    What is a JSX element?
+    - A JSX element has JavaScript and HTML like syntax, where it could be a single HTML element or many HTML elements wrapped in a parent HTML element.
+
+    Write your name in a JSX element and store it in a name variable
+    - const name = <h1>Raphael</h1>
+
+    Write a JSX element which displays your full name, country, title, gender, email, phone number. Use h1 for the name and p for the rest of the information and store it in a user variable
+    - const user = (<div id = "info">
+        <h1>Raphael Wong Doh Ong</h1>
+        <p>Country: Malaysia</p>
+        <p>Title: Mr</p>
+        <p>Gender: Male</p>
+        <p>Email: wongdohong2@gmail.com</p>
+        <p>Phone number: 018 871 7406</p>
+    </div>)
+
+    Write a footer JSX element
+    - const footer = (<footer>
+        <p>Copyright 2020</p>
+    </footer>)
+
+Exercises: Inline Style
+
+    Create a style object for the main JSX
+    Create a style object for the footer and app JSX
+    Add more styles to the JSX elements
+
+Exercises: Internal Styles
+
+    Apply different styles to your JSX elements
+
+Exercise: Inject data to JSX
+
+    Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
