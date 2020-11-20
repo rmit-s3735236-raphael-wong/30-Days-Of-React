@@ -1,0 +1,39 @@
+
+    What is a module?
+    - A module is a single or multiple function that can be exported and imported in a project.
+
+    What is package?
+    - A package is a module or a collection of modules.
+
+    What is the difference between a module and a package.
+    - A module consists of functions whereas package consists of modules.
+
+    What is NPM?
+    - NPM stands for Node Package Manager. NPM is a default package manager for Node.js, where it allows users to consume and distribute JavaScript modules that are available in the registry.
+
+    What is Webpack?
+    - A Webpack is a module bundler where it bundles JavaScript files for usage in a browser.
+
+    How do you create a new React project?
+    - Open tha CLI or terminal, then enter the command:
+        npx create-react-app <project name>
+    
+    What are the files and folders inside a project folder(package.json, package-lock.json or yarn.lock, .gitignore,node_modules and public)?
+    - package.json
+        - List of packages the applications uses
+    -  package-lock.json or yarn.lock
+        - Means to lock the version of the package
+    - .gitignore
+        - Allows files and folders not to be pushed to GitHub
+    - node_modules 
+        - Stores all the necessary node packages of the React application
+    - public
+        - Stores the index.html file, favicon.ico, manifest.json, otehr images, and robots.txt
+ 
+    What is your favorite code editor (I believe that it is Visual Studio Code)?
+        - Atom
+
+    Add different Visual Studio Code extensions to improve your productivity(eg. prettier, ESLint etc).
+        - Prettier, ESLint, ES7, and Bracket Pair Colorizer
+        
+    Try to make a different custom module in a different file and import it to index.js.
