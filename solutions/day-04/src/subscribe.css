@@ -1,0 +1,29 @@
+.signup {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.signup p{
+    padding: 5px;
+}
+
+.signup input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+.signup button {
+    background-color: firebrick;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

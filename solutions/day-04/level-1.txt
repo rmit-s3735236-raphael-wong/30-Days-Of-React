@@ -1,0 +1,41 @@
+
+    What is the difference between a regular function and an arrow function?
+    - A regular function uses function functionName() whereas arrow function uses =>
+
+    What is a React Component?
+    - A React componenet is a small, reusable code, which is responsible for one part of the application UI.
+
+    How do you make a React functional component?
+    - By using a JavaScript function which does not use any props
+
+    What is the difference between a pure JavaScript function and a functional component?
+    - A pure JavaScript function returns a JavaScript object whereas a functional React component returns a JSX component.
+
+    How small is a React component?
+    - The smallest component returns only a single HTML element as JSX
+
+    Can we make a button or input field component?
+    - Yes
+
+    Make a reusable Button component.
+    - const Button = () => <button>action</button>
+
+    Make a reusable InputField component.
+    - const InputField = () => <input>Input</input>
+
+    Make a reusable alert box component with one div parent element and one p child element of the div(warning alert box, success alert box).
+    -
+    const warning = 'Warning'
+    const success = 'Success'
+
+    const alertWarning = () => (
+        <div>
+            <p>{warning}</p>
+        </div>
+    )
+
+    const alertSuccess = () => (
+        <div>
+            <p>{success}</p>
+        </div>
+    )
