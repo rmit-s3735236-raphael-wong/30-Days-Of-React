@@ -1,0 +1,16 @@
+
+    What is props in a React component ?
+    - Props is a special keyword in React that stands for properties and is being used to pass data from one component to another
+
+    How do you access props in a React component ?
+    - Props can be accessed from the component properties
+
+    What data types can we pass as props to components ?
+    - String, number, boolean, array, object or a function
+
+    What is a propTypes?
+    - PropTypes package helps us to assign the data types of the props we passed to a component.
+
+    What is a default propTypes?
+    - The defaultProps can be used when we want to have some default prop types for a component.
+    
