@@ -1,0 +1,12 @@
+
+    Why you need to map an array ?
+    - Most of the time data is in the form of an array or an array of objects, and in order to render this array or array of objects we modify the data using map.
+
+    Why we need keys during mapping an array ?
+    - Keys help React to identify items which have changed, added, or removed.
+
+    What is the importance of destructuring your code ?
+    - To help simplify the code for easier readability
+
+    Does destructuring make your code clean and easy to read ?
+    - Yes
