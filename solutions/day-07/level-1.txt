@@ -1,0 +1,26 @@
+
+    How do you write a pure JavaScript function
+    - const function(props) {
+        return something
+    }
+
+    What is inheritance and how do you make a child from a parent class?
+    - Inheritance is the ordering of the class. To make a child of a parent class, use the 'extends' to extend a parent class to a child class
+
+    What is class based React component ?
+    - Class based React component is a child of React.Componenet and it has a built-in render method and it may have a constructor.
+
+    What is the difference between functional React component and class based React component ?
+    - A class based React component has a constructor, render and other methods while functional React components may not have them.
+
+    When do we need to use class based components instead of functional components
+    - In previous versions, class based components allows data to flow from parent components to child component, where it would be impossible for functional components last time.
+
+    What is the use cases of class based component ?
+    - When there is a need to use multiple methods in a component
+
+    Which type of component do use most frequently ? functional or class-based component
+    - Functional component
+
+    What is React life cycle ? (not covered yet) ?
+    What is state in React ? (not covered yet)
