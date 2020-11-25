@@ -1,0 +1,15 @@
+
+    What was your state today? Are you happy? I hope so. If you manage to make it this far you should be happy.
+    - My state is okay / neutral.
+
+    What is state in React ?
+    - State is an object in react which let the componenet re-render when state data chages.
+
+    What is the difference between props and state in React ?
+    - Props are objects passed from one component to another which cannot change the original source. Whereas state is an internal component object which can be changed.
+
+    How do you access state in a React component ?
+    -  this.state.<object>
+    
+    How do you set a set in a React component ?
+    - by declaring a state in the state method
