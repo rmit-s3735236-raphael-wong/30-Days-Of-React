@@ -1,0 +1,33 @@
+table {
+    margin: 50px auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.even {
+    background-color: mediumseagreen;
+}
+
+.odd {
+    background-color: gold;
+}
+
+.prime {
+    background-color: indianred;
+}
+
+.colorTable, .numberTable {
+    color: white
+}
+
+.populationTable td {
+    height: auto;
+    width: 100px;
+    text-align: left;
+    margin: 0 10px;
+}

@@ -1,0 +1,35 @@
+.user {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: lightpink;
+    color: black;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.user img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.user h1 {
+    margin: 10px 0;
+    font-size: large;
+}
+
+.user p {
+    margin: 10px 0;
+}
+
+.user ul {
+    display: inline-block;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.user li {
+    display: inline;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}

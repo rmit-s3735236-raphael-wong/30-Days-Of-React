@@ -1,0 +1,18 @@
+
+    What is the importance of React Folder Structure and File Naming
+    - For scalability, maintainability, ease of working on files and easy to understand structure.
+
+    How do you export file
+    -Export it as a default or named export
+
+    How do you import file
+    - import {App} from './App'
+
+    Make a component of module and export it as named or default export
+    - export const App = () => <h1>Welcome to 30 Days Of React</h1>
+
+    Make a component or module and import it
+    - import {App} from './App'
+
+    Change all the components you have to different folder structure
+    
