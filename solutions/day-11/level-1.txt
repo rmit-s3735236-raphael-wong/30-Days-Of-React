@@ -1,0 +1,37 @@
+
+    What is an event?
+    - An event is an action or occurrence recognized by a software.
+
+    What is the different between an HTML element event and React event?
+    - In HTML element the event function is separated in different tags, whereas in React it is within the component. React events are named using camelCase, rather than lowercase, and with JSX you pass a function as the event handler, rather than a string.
+
+    Write at least 4 keyboard events?
+    - onKeyDown, onKeyPress, onKeyUp
+
+    Write at least 8 mouse events?
+    - onMouseMove, onMouseEnter, onMouseLeave, onMouseOut, onClick
+
+    What are the most common mouse and keyboard events?
+    - onClick and onKeyPress
+
+    Write an event specific to input element?
+    - <input type='text' onKeyPress={this.handleKeyPress} />
+
+    Write an event specific to form element?
+    - <form onSubmit={this.handleSubmit}>...</form>
+
+    Display the coordinate of the view port when a mouse is moving on the body?
+    _onMouseMove(e) {
+        this.setState({x: e.screenX, y:e.screenY})
+    }
+    render() {
+        <div onMouseMove={this._onMouseMove.bind(this)}>
+            <h1>Mouse coordinates: {x} {y}</h1>
+        </div>
+    }
+    
+    What is the difference between onInput, onChange and onBlur?
+    - There is no real difference between onInput and onChange, whereas onBlur blurs the input field when the mouse leave the input field
+    
+    Where do we put the onSubmit event ?
+    - on the form element
