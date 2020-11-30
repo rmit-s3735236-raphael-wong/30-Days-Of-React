@@ -1,0 +1,48 @@
+
+    What is the importance of form?
+    - Form is used to collect data from a user
+
+    How many input types do you know?
+    - text, email, password, telephone, date, checkbox, radio button, option selection and text area
+
+    Mention at least four attributes of an input element
+    - name, value, type, checked
+
+    What is the importance of htmlFor?
+    - HTML5 provide quite a lot of field types 
+
+    Write an input type which is not given in the example if there is?
+    - 
+
+    What is a controlled input?
+    - A controlled input is an input field that das a memory set using state
+
+    What do you need to write a controlled input?
+    - We need an input field, event listener (onChange) and state to get data from a controlled input.
+
+    What event type do you use to listen changes on an input field?
+    - onChange
+
+    What is the value of a checked checkbox?
+    - true
+
+    When do you use onChange, onBlur, onSubmit?
+    - onChange is used on the input field when the user enters informaiton, onBlur is used for input fields which needs to be triggered when the user leaves the input, and onSubmit is used on the form element.
+
+    What is the purpose of writing e.preventDefault() inside the submit handler method?
+    - Stops the default behaviour of form element
+
+    How do you bind data in React? The first input field example is data binding in React.
+    handleChange = (e) => {
+        const { name, value} = e.target
+        this.setState({[name]: value})
+    }
+
+    What is validation?
+    - The action or process of checking or proving the validity or accuracy of something in this case data.
+
+    What is the event type you use to listen when an input changes?
+    - onChange
+
+    What are event types do you use to validate an input?
+    - onBlur
