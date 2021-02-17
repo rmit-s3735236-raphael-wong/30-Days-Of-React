@@ -1,0 +1,30 @@
+
+    What is a package?
+    - Packages are components available from the library.
+
+    What is a third party package ?
+    - A third party package is a package that is not created from the official React.
+
+    Do you have to use third party packages?
+    - No, it is optional
+
+    How do you know the popularity and stability of a third party package?
+    - By the npm registry popular packages, total number oof packages, downloads per week and downloads per month
+
+    How many JavaScript packages are there on the npm registry?
+    - There are more than 1.4M JavaScript packages on npm registry.
+
+    How do you install a third party package?
+    - You can use either npm or yarn to install packages.
+
+    What packages do you use most frequently?
+    - react and react-dom
+
+    What package do you use to fetch data?
+    - axios package
+
+    What is the purpose of classnames package?
+    - classnames is used for condistionally joining classNames together.
+
+    What is the pupose validator package?
+    - validator is for validating and sanitzing strings.

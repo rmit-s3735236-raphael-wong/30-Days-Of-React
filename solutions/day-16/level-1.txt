@@ -1,0 +1,12 @@
+
+    What is higher order function
+    - A higher order function is a function that takes another function as a parameter or return another function
+
+    What is Higher Order Component
+    - A higer order componenet takes a component and return another component.
+
+    What is the difference between higher order function and higher order component?
+    - The difference is that a higher order function returns a function, which cannot be rendered, whereas a higher order component returns a component which can be rendered.
+
+    A higher order component can allow us to enhance a component. (T or F)
+    - True. It reuses an already existing component and modifies it.
